@@ -53,7 +53,9 @@ const arrayPedido = JSON.parse(localStorage.getItem('pedidoUsuario'))
 const elcarro = new Pedido(arrayPedido)
 console.log(elcarro);
 
+
+
+
 elcarro.htmlCode()
 elcarro.eliminarItem()
 
-console.log(elcarro);
