@@ -1,0 +1,26 @@
+@import 'productostore';
+
+.deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+// collections
+.nameonlyproduct1{
+    display: flex;
+}
+
+.antiguoPrecio1{
+    margin: -1rem 0 0rem 0;
+    text-decoration: line-through;
+    color: $Grayish-blue;
+}
+
+
+.carritosvg{
+    width: 15px;
+    margin: -5px 2px 0 0;
+}
+

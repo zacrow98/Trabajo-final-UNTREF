@@ -1,0 +1,16 @@
+@import 'variables/colors';
+@import 'bootstrap/bootstrap';
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+@font-face {
+    font-family:KumbhSans;
+    src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+}
+
+@import 'variables/colors';
+@import 'productos/productostore';
+@import 'productos/collections';
+
+body{
+    margin: 0 150px 0 150px;
+    font-family: KumbhSans;
+}
